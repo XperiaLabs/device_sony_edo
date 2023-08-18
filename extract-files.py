@@ -122,7 +122,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'sm8250-common',
+    'edo',
     'sony',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
