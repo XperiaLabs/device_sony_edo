@@ -33,3 +33,11 @@ cc_library_shared {
     shared_libs: ["libavservices_minijail"],
     vendor: true,
 }
+
+cc_library {
+    name: "libcrypto_shim",
+    srcs: [
+        "libcrypto/cbs.c",
+    ],
+    vendor: true,
+}
