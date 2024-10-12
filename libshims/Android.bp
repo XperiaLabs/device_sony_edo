@@ -128,3 +128,14 @@ cc_library {
     version_script: "libbinder/libbinder.map",
     vendor_available: true
 }
+
+cc_library {
+    name: "libinput_shim",
+    srcs: ["libinput/Input.cpp"],
+    include_dirs: [
+        "frameworks/native/libs/ui/include",
+    ],
+    shared_libs: ["libinput"],
+    compile_multilib: "64",
+    system_ext_specific: true,
+}
