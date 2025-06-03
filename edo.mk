@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-TARGET_ENABLE_BLUR := true
-
 TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Include common vendor stuff
